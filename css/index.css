@@ -4306,9 +4306,6 @@ img {
 #vcomment button:hover {
   background-color: #ff7242;
 }
-#vcomment textarea {
-  background: url("/image/comment_bg.png") 100% 100% no-repeat;
-}
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -5736,4 +5733,7 @@ blockquote.pullquote.right {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
+}
+.v[data-class=v] .txt-right {
+  display: none;
 }
