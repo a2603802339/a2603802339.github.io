@@ -407,6 +407,13 @@ canvas:not(#ribbon-canvas),
   -ms-animation: tocsidebarRtoL 0.7s;
   animation: tocsidebarRtoL 0.7s;
 }
+@font-face {
+  font-family: MyFont;
+  src: url("https://fonts.googleapis.com/css?family=NotoSerifSC");
+}
+body {
+  font-family: MyFont !important;
+}
 @-moz-keyframes scroll-down-effect {
   0% {
     top: 0;
