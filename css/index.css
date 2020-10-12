@@ -408,11 +408,11 @@ canvas:not(#ribbon-canvas),
   animation: tocsidebarRtoL 0.7s;
 }
 @font-face {
-  font-family: MyFont;
+  font-family: Noto Serif SC;
   src: url("https://fonts.googleapis.com/css?family=NotoSerifSC");
 }
 body {
-  font-family: MyFont !important;
+  font-family: Noto Serif SC !important;
 }
 @-moz-keyframes scroll-down-effect {
   0% {
