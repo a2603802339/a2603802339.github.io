@@ -409,7 +409,7 @@ canvas:not(#ribbon-canvas),
 }
 @font-face {
   font-family: Noto Serif SC;
-  src: url("https://fonts.googleapis.com/css?family=NotoSerifSC");
+  src: url("https://fonts.googleapis.com/css2?family=NotoSerifSC");
 }
 body {
   font-family: Noto Serif SC !important;
