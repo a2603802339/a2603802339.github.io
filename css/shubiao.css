@@ -1,0 +1,9 @@
+body {
+    cursor: url("/img/1.cur"),
+        default;
+}
+a,
+img {
+    cursor: url("/img/2.cur"),
+        default;
+}
