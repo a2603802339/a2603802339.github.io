@@ -306,11 +306,3 @@
 }
 
 
-#element.style {
-    font-family: Arial, sans-serif;
-    position: fixed;
-    z-index: 10001;
-    bottom: 165px;
-    right: 50px;
-    text-align: right;
-}
