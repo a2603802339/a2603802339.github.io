@@ -5935,3 +5935,37 @@ blockquote.pullquote.right {
   font-size: 18px;
   text-align: left;
 }
+#bookmark-it {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background-color: #49b1f5;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  border-radius: 5px;
+}
+.button--animated {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  -ms-transition-property: color;
+  transition-property: color;
+}
+.button--animated:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+#article-container a {
+  color: #e91e63;
+}
