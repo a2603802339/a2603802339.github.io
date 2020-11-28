@@ -1,3 +1,7 @@
-/* build time:Tue Nov 24 2020 23:40:43 GMT+0800 (GMT+08:00)*/
-#web_bg,canvas:yes(#ribbon-canvas){margin-bottom:0;display:block;width:100%}
-/* rebuild by neat */
+/* 鱼塘固定宽度 */
+canvas:yes(#ribbon-canvas), #web_bg {
+    margin-bottom: 0rem;
+    display: block;
+    width: 100%;
+    /*height: 160px*/
+}
