@@ -13,6 +13,11 @@
 }
 */
 
+/* 滚动条隐藏 */
+::-webkit-scrollbar {
+  display: none;
+}
+
 #footer {
     background: rgba(255,255,255,.15);
     color: #000;
