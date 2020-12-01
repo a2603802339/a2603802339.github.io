@@ -5,13 +5,12 @@
    /* background: rgba(255,255,255,.7);
 }
 /* 所有背景（包括首页卡片、文章页、页面页等） */
-/*
+
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表白色透明度为0.3 */
-   /* 
-    background: rgba(255,255,255,.7);
+  
+    background: rgba(255,255,255,.8);
 }
-*/
 
 /* 滚动条隐藏 */
 ::-webkit-scrollbar {
@@ -51,16 +50,16 @@ canvas:yes(#ribbon-canvas), #web_bg {
 
 /* 博主昵称颜色 */
 .author-info__name {
-    color: #ff7242;
+    color: #9E9E9E;
 }
 
 /* 首页中间打字效果上方 */
 #page-header #site_title {
-    color: #80bdab;
+    color: #027db5;
 }
 /* 顶部导航栏 */
 #nav a {
-    color: #f9f2f4;
+    color: #333;
 }
 
 
@@ -252,3 +251,6 @@ src: url(https://fonts.googleapis.com/css2?family=Noto+Serif+SC)} //src: url(htt
 }
 
 
+#page-header {
+  background: transparent !important;
+}

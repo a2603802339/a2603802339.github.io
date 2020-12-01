@@ -37,7 +37,7 @@
 }
 /* 调整信封划出高度，换信笺内容以后可在此设置height */
 #form-wrap:hover {
-  height: 1050px;
+  height: 1100px;
   top: -200px;
 }
 

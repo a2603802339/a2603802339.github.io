@@ -79,7 +79,7 @@ body {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url("https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/jkjfskd21.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/63093148_p0.jpg");
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -165,7 +165,7 @@ table thead {
 table th,
 table td {
   padding: 0.3rem 0.6rem;
-  border: 1px solid #6bb29d;
+  border: 1px solid #0271a3;
   vertical-align: middle;
 }
 *::selection {
@@ -2399,11 +2399,11 @@ blockquote footer cite:before {
 #footer-wrap {
   position: relative;
   padding: 2rem 1rem;
-  color: #80bdab;
+  color: #027db5;
   text-align: center;
 }
 #footer-wrap a {
-  color: #80bdab;
+  color: #027db5;
   cursor: pointer;
 }
 #footer-wrap a:hover {
@@ -2446,7 +2446,7 @@ blockquote footer cite:before {
 #page-header #site_title,
 #page-header #site_subtitle,
 #page-header #scroll_down .scroll-down-effects {
-  color: #80bdab;
+  color: #027db5;
   text-align: center;
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   line-height: 1.5;
@@ -2466,7 +2466,7 @@ blockquote footer cite:before {
 }
 #page-header #site_social_icons .social-icon {
   margin: 0 0.5rem;
-  color: #80bdab;
+  color: #027db5;
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-size: 1rem;
   cursor: pointer;
@@ -2509,7 +2509,7 @@ blockquote footer cite:before {
   bottom: 1.5rem;
   padding: 0 8%;
   width: 100%;
-  color: #80bdab;
+  color: #027db5;
   text-align: left;
 }
 #page-header.post-bg #post-info #post-title {
@@ -2539,7 +2539,7 @@ blockquote footer cite:before {
   margin-right: 0.2rem;
 }
 #page-header.post-bg #post-info #post-meta a {
-  color: #80bdab;
+  color: #027db5;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -2588,7 +2588,7 @@ _:future,
   font-size: inherit;
 }
 #nav a {
-  color: #80bdab;
+  color: #027db5;
 }
 #nav a:hover {
   color: #fff;
@@ -3749,7 +3749,7 @@ img {
   position: relative;
   margin: 2rem 0 0.5rem;
   padding: 0.5rem 0.8rem;
-  border: 1px solid #80bdab;
+  border: 1px solid #027db5;
   -webkit-transition: box-shadow 0.3s ease-in-out;
   -moz-transition: box-shadow 0.3s ease-in-out;
   -o-transition: box-shadow 0.3s ease-in-out;
@@ -3903,7 +3903,7 @@ img {
   transform: translate(0, -50%);
 }
 .relatedPosts .relatedPosts_main .relatedPosts_date {
-  color: #80bdab;
+  color: #027db5;
   font-size: 90%;
 }
 .relatedPosts .relatedPosts_main .relatedPosts_title {
@@ -4738,7 +4738,7 @@ blockquote.pullquote.right {
   position: relative;
   margin: 0 0 1rem;
   padding: 15px;
-  border: 1px solid #80bdab;
+  border: 1px solid #027db5;
   border-left-width: 5px;
   border-radius: 3px;
 }
