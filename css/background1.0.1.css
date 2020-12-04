@@ -233,11 +233,9 @@ div.timenode:hover .meta:after {
   background: #ff5722;
   transform: scale(1);
 }
-/* 字体 */
-@font-face { font-family:Noto Serif SC;
-src: url(https://fonts.googleapis.com/css2?family=Noto+Serif+SC)} //src: url(https://fonts.googleapis.com/css?family=Noto+Serif+SC)}
-
-
+@font-face { font-family:Playfair Display;
+src: url(https://fonts.googleapis.com/css2?family=Playfair+Display)}
+body{font-family:Playfair Display!important;}
 
 .icon-qq1:before {
   content: "\e600";
