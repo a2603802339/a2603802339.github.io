@@ -9,7 +9,7 @@
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表白色透明度为0.3 */
   
-    background: rgba(255,255,255,.8);
+    background: rgba(255,255,255,1);
 }
 
 /* 滚动条隐藏 */
@@ -45,7 +45,7 @@ canvas:yes(#ribbon-canvas), #web_bg {
     margin-bottom: 0rem;
     display: block;
     width: 100%;
-    /*height: 160px*/
+   /* height: 160px*/
 }
 
 /* 博主昵称颜色 */
@@ -233,9 +233,7 @@ div.timenode:hover .meta:after {
   background: #ff5722;
   transform: scale(1);
 }
-@font-face { font-family:Playfair Display;
-src: url(https://fonts.googleapis.com/css2?family=Playfair+Display)}
-body{font-family:Playfair Display!important;}
+
 
 .icon-qq1:before {
   content: "\e600";
@@ -252,3 +250,96 @@ body{font-family:Playfair Display!important;}
 #page-header {
   background: transparent !important;
 }
+
+/* 标题图标 */
+#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+    margin-left: -1.5rem!important;
+    margin-top: -.2rem;
+    -webkit-animation: avatar_turn_around 1s linear infinite;
+    -moz-animation: avatar_turn_around 1s linear infinite;
+    -o-animation: avatar_turn_around 1s linear infinite;
+    -ms-animation: avatar_turn_around 1s linear infinite;
+    animation: avatar_turn_around 1s linear infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: avatar_turn_around;
+}
+
+/*诗*/
+.poem-wrap {
+    position: relative;
+    width: 730px;
+    max-width: 80%;
+    border: 2px solid #797979;
+    border-top: none;
+    text-align: center;
+    margin: 80px auto;
+}
+ 
+.poem-wrap h1 {
+    font-size: 30px;
+    position: relative;
+    margin-top: -20px;
+    display: inline-block;
+    letter-spacing: 4px;
+    color: #797979
+}
+ 
+.poem-wrap p {
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    color: #797979;
+}
+ 
+.poem-wrap p#poem {
+    font-size: 25px;
+}
+ 
+.poem-wrap p#info {
+    font-size: 15px;
+    margin: 15px auto;
+}
+ 
+.poem-border {
+    position: absolute;
+    height: 2px;
+    width: 27%;
+    background-color: #797979;
+}
+ 
+.poem-right {
+    right: 0;
+}
+ 
+.poem-left {
+    left: 0;
+}
+ 
+@media (max-width: 685px) {
+    .poem-border {
+        width: 18%;
+    }
+}
+ 
+@media (max-width: 500px) {
+    .poem-wrap {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-top: 2px solid #797979;
+    }
+ 
+    .poem-wrap h1 {
+        margin: 20px 6px;
+    }
+ 
+    .poem-border {
+        display: none;
+    }
+}
+
