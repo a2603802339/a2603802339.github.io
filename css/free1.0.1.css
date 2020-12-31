@@ -342,12 +342,12 @@ div.timenode:hover .meta:after {
         display: none;
     }
 }
-
+/*
 svg.icon {
   /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
-   width: 4em; height: 4em;
+   /*width: 1.2em; height: 1.2em;
    /* width和height定义图标的默认宽度和高度*/
-   vertical-align: -0.15em;
+   /*vertical-align: -0.15em;
    fill: currentColor;
    overflow: hidden;
-}
+} 
