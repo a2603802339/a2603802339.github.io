@@ -9,14 +9,18 @@
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表白色透明度为0.3 */
   
-    background: rgba(255,255,255,1);
+   background: rgba(255,255,255,1);
 }
+
 
 /* 滚动条隐藏 */
 ::-webkit-scrollbar {
   display: none;
 }
+ /*.progress-bar{ displat: none !important; }*/
 
+
+/*页脚半透明*/
 #footer {
     background: rgba(255,255,255,.15);
     color: #000;
@@ -40,13 +44,6 @@
 */
 
 
-/* 鱼塘固定宽度 */
-canvas:yes(#ribbon-canvas), #web_bg {
-    margin-bottom: 0rem;
-    display: block;
-    width: 100%;
-   /* height: 160px*/
-}
 
 /* 博主昵称颜色 */
 .author-info__name {
@@ -246,7 +243,7 @@ div.timenode:hover .meta:after {
   font-size: 24px;
 }
 
-
+/* top-img隐藏 */
 #page-header {
   background: transparent !important;
 }
