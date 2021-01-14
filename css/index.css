@@ -409,6 +409,10 @@ canvas:not(#ribbon-canvas),
   -ms-animation: tocsidebarRtoL 0.7s;
   animation: tocsidebarRtoL 0.7s;
 }
+@font-face {
+  font-family: 'Noto Serif SC';
+  src: url("https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/NotoSerifSC-Medium.otf");
+}
 @-moz-keyframes scroll-down-effect {
   0% {
     top: 0;
@@ -1601,7 +1605,7 @@ blockquote footer cite:before {
 }
 #article-container pre,
 #article-container code {
-  font-family: Noto Serif SC !important;
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
